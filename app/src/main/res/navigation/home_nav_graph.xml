@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.muhasib.documate.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/PdfFragment"
+        android:name="com.muhasib.documate.Fragments.PdfFragment"
+        android:label="fragment_pdf"
+        tools:layout="@layout/fragment_pdf" >
+
+        <action
+            android:id="@+id/action_pdfFragment_to_pdfViewerFragment"
+            app:destination="@id/pdfViewerFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/pdfViewerFragment"
+        android:name="com.muhasib.documate.Fragments.PDFViewerFragment"
+        android:label="fragment_pdf_viewer"
+        tools:layout="@layout/fragment_p_d_f_viewer" />
+</navigation>

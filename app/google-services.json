@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596621550830",
+    "project_id": "documate-1ef7a",
+    "storage_bucket": "documate-1ef7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596621550830:android:eb0e98d968622aef3b3fff",
+        "android_client_info": {
+          "package_name": "com.muhasib.documate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLH9HoHjYsrnqHQUy2d6Y1owq-e4HM-uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
